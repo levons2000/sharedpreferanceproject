@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="register_dialog_width">300dp</dimen>
+    <dimen name="register_dialog_text_margin">5dp</dimen>
+    <dimen name="item_style_height">100dp</dimen>
+    <dimen name="item_style_text_size">20sp</dimen>
+    <dimen name="item_style_card_margin">10dp</dimen>
+</resources>

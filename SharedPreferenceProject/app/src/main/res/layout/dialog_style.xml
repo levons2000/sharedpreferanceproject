@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/register_dialog_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/register_dialog_width"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/add_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/register_dialog_text_margin"
+            android:hint="@string/name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/register_dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/register_dialog_text_margin">
+
+        <EditText
+            android:id="@+id/add_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/add_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/register_dialog_text_margin"
+        android:background="@null"
+        android:src="@drawable/ic_playlist_add_black_24dp" />
+
+</LinearLayout>
